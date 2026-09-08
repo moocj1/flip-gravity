@@ -9,12 +9,10 @@ assignees: ""
 
 ## What to build
 
-
 ## Acceptance criteria
 
-
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ## Blocked by
 
