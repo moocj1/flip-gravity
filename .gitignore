@@ -1,0 +1,15 @@
+.freebuff/
+.DS_Store
+Thumbs.db
+*.tmp
+
+.godot/
+
+build/
+export/
+
+doc/
+agents.md
+
+.history/
+
