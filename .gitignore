@@ -1,15 +1,13 @@
-.freebuff/
-.DS_Store
-Thumbs.db
-*.tmp
-
+# Godot — generated editor cache (never commit)
 .godot/
+/android/
 
 build/
 export/
-
 doc/
 agents.md
-
+.freebuff/
 .history/
-
+.DS_Store
+Thumbs.db
+*.tmp
