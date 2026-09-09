@@ -1,8 +1,15 @@
 [gd_scene format=3 uid="uid://ce657jeadingx"]
 
 [ext_resource type="PackedScene" uid="uid://fca6xwjfemt0" path="res://scenes/ship.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://brl354pncdhmm" path="res://scenes/wall.tscn" id="2_0wfyh"]
 
 [node name="Main" type="Node2D" unique_id=1103055058]
 
 [node name="Ship" parent="." unique_id=669843719 instance=ExtResource("1_o5qli")]
 position = Vector2(480, 270)
+
+[node name="WallTop" parent="." unique_id=152411499 instance=ExtResource("2_0wfyh")]
+position = Vector2(480, 20)
+
+[node name="WallBottom" parent="." unique_id=483406342 instance=ExtResource("2_0wfyh")]
+position = Vector2(480, 520)
