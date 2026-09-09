@@ -14,4 +14,6 @@ agents.md
 .DS_Store
 Thumbs.db
 *.tmp
+.agents/
+skills-lock.json
 
