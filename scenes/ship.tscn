@@ -6,6 +6,7 @@
 size = Vector2(40, 24)
 
 [node name="Ship" type="CharacterBody2D" unique_id=669843719]
+collision_layer = 2
 script = ExtResource("1_q631a")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1082647614]

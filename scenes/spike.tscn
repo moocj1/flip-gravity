@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://wlddloecsatg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pn73i"]
+size = Vector2(30, 30)
+
+[node name="Spike" type="Area2D" unique_id=1296012456]
+collision_mask = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=808556657]
+offset_left = -15.0
+offset_top = -15.0
+offset_right = 15.0
+offset_bottom = 15.0
+color = Color(1, 0, 0.10980392, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1209477328]
+shape = SubResource("RectangleShape2D_pn73i")
