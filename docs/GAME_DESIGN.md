@@ -17,7 +17,10 @@ The game serves as a first game project for me, and also the first time using Go
 
 | Action        | Input        | Notes                                                                                |
 |---------------|--------------|--------------------------------------------------------------------------------------|
+| Start game    | Space / click| From the main menu pressing start will begin the game.                               |
 | Flip gravity  | Space / click| Each press has a short cooldown to prevent button mashing, which may cause an issue. |
+| Restart game  | R            | Restarts the game from the game over screen.                                         |
+| Return to menu| Esc          | Returns from the game over screen back to the main menu.                             |
 
 ## 4. Player
 

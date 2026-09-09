@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://4kvxasa415jf"]
+
+[ext_resource type="Script" uid="uid://ddl4ul8buxyh0" path="res://scenes/game_over.gd" id="1_xeevv"]
+
+[node name="GameOver" type="Control" unique_id=2007209185]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xeevv")
+
+[node name="Center" type="CenterContainer" parent="." unique_id=1866479624]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Stack" type="VBoxContainer" parent="Center" unique_id=1411360363]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Title" type="Label" parent="Center/Stack" unique_id=742612422]
+layout_mode = 2
+theme_override_font_sizes/font_size = 72
+text = "GAME OVER"
+horizontal_alignment = 1
+
+[node name="Score" type="Label" parent="Center/Stack" unique_id=167188187]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "Score: 0"
+horizontal_alignment = 1
+
+[node name="Prompt" type="Label" parent="Center/Stack" unique_id=1917747017]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Press space to retry · Esc to menu"
+horizontal_alignment = 1
