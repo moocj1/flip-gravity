@@ -1,6 +1,9 @@
 # Godot — generated editor cache (never commit)
 .godot/
 /android/
+# Godot is doing stuff to the diagrams in the docs which is causing weird git status stuff, so hiding that too.
+docs/**/*.import 
+docs/**/*.uid
 
 build/
 export/
@@ -11,3 +14,4 @@ agents.md
 .DS_Store
 Thumbs.db
 *.tmp
+
