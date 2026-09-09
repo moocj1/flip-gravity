@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://iplvbgxo0u1j"]
+
+[ext_resource type="Script" uid="uid://br47ra4kps3yc" path="res://scenes/menu.gd" id="1_yqeox"]
+
+[node name="Menu" type="Control" unique_id=1269306863]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yqeox")
+
+[node name="Center" type="CenterContainer" parent="." unique_id=1868807216]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Stack" type="VBoxContainer" parent="Center" unique_id=1707822560]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Title" type="Label" parent="Center/Stack" unique_id=1101164227]
+layout_mode = 2
+theme_override_font_sizes/font_size = 72
+text = "FLIP"
+horizontal_alignment = 1
+
+[node name="Hint" type="Label" parent="Center/Stack" unique_id=1392426039]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Space - flip gravity"
+horizontal_alignment = 1
+
+[node name="Prompt" type="Label" parent="Center/Stack" unique_id=1139346991]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Press space to start"
+horizontal_alignment = 1
